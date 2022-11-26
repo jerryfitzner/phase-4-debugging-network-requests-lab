@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+    - Network 500 error
+    - Toy was plural 
 
 - Update the number of likes for a toy
 
   - How I debugged:
+    - Console error: unexpected use of JSON
+    - No JSON was being returned
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+   - Network error: no route matches delete
+   - No method for delete, destroy was missing from routes
